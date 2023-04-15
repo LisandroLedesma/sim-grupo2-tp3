@@ -156,24 +156,6 @@ const frecObs = (nros, inf, sup) => {
     return fo;
 };
 
-// const prueba = (int, suma) => {
-//     let v = int - 1;
-//     let res = false;
-//     let valor_tabla = 0;
-
-//     chi.forEach((par) => {
-//         if (par[0] === v) {
-//             valor_tabla = par[1];
-//         }
-//     });
-
-//     if (suma <= valor_tabla) {
-//         res = true;
-//     }
-
-//     return [res, suma, valor_tabla];
-// }
-
 const exportToExcelFrec = () => {
     gridOptions.api.exportDataAsExcel();
 };

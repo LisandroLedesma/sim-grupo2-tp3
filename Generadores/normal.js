@@ -17,22 +17,6 @@ const truncateDecimals = (number, digits) => {
     return Math.trunc(number * multiplier) / multiplier;
 };
 
-function generarRandomsUnif(cant_n){
-    let objRand = {}
-    let randoms = []
-    for (let i = 0; i < cant_n; i++) {
-        if (i % 2 == 0) {
-            objRand = {
-                rnd1: truncateDecimals(Math.random(), 4),
-                rnd2: truncateDecimals(Math.random(), 4),
-            }
-        }
-        randoms.push(objRand)
-
-    }
-    return randoms
-}
-
 var rnd1 = 0;
 var rnd2 = 0;
 const distribucionNormal = (media, desviacion, i) => {

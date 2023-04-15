@@ -50,7 +50,6 @@ const simularExp = () => {
     if (typeof lambda === "undefined" || typeof n === "undefined")
         return alert("Por favor, ingrese todos los datos.");
     if (isNaN(lambda) || isNaN(n)) return alert("Por favor, ingrese números.");
-    // A puede ser igual que B????
     if (lambda <= 0) return alert("El valor de 'lambda' debe ser mayor a 0");
 
     try {
